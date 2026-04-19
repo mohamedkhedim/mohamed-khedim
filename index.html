@@ -1,48 +1,87 @@
-<!DOCTYPE html><html>
+<!DOCTYPE html><html lang="en">
 <head>
-<title>Mohamed Khedim Portfolio</title>
-<style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mohamed Khedim | 3D Artist</title><style>
 body {
-  background: #0d0d0d;
-  color: white;
-  font-family: Arial;
-  text-align: center;
-  margin: 0;
-}.header {
-padding: 40px;
+  margin:0;
+  font-family:Arial;
+  background:#0f172a;
+  color:white;
+}
+
+header {
+  padding:60px 20px;
+  text-align:center;
+  background:linear-gradient(135deg,#0ea5e9,#6366f1);
+}
+
+header h1 {
+  margin:0;
+  font-size:40px;
+}
+
+header p {
+  font-size:18px;
 }
 
 .section {
-padding: 30px;
+  padding:50px 20px;
+  text-align:center;
 }
 
-img {
-width: 250px;
-border-radius: 10px;
-margin: 10px;
+.cards {
+  display:flex;
+  flex-wrap:wrap;
+  justify-content:center;
 }
 
-.box {
-background: #1a1a1a;
-padding: 20px;
-margin: 20px;
-border-radius: 10px;
+.card {
+  background:#1e293b;
+  margin:10px;
+  padding:15px;
+  border-radius:10px;
+  width:250px;
 }
-</style>
 
-</head><body><div class="header">
+.card img {
+  width:100%;
+  border-radius:10px;
+}
+
+footer {
+  text-align:center;
+  padding:20px;
+  background:#020617;
+}
+</style></head><body><header>
   <h1>Mohamed Khedim</h1>
   <p>3D Artist | Unity Asset Creator</p>
-</div><div class="section box">
+</header><section class="section">
   <h2>About Me</h2>
-  <p>I create high-quality low poly and stylized assets for Unity, including characters, weapons, and environments. All assets are created using Blender with clean topology, proper UV mapping, and optimized performance.</p>
-</div><div class="section box">
+  <p>I create high-quality low poly and stylized assets for Unity. My work includes characters, weapons, and environments optimized for performance and easy integration.</p>
+</section><section class="section">
   <h2>My Work</h2>
-  <p>Sample previews of my 3D assets:</p>  <img src="https://via.placeholder.com/300" alt="work1">
-  <img src="https://via.placeholder.com/300" alt="work2">
-  <img src="https://via.placeholder.com/300" alt="work3">
-</div><div class="section box">
+  <div class="cards"><div class="card">
+  <img src="https://via.placeholder.com/300">
+  <p>Low Poly Character</p>
+</div>
+
+<div class="card">
+  <img src="https://via.placeholder.com/300">
+  <p>Weapons Pack</p>
+</div>
+
+<div class="card">
+  <img src="https://via.placeholder.com/300">
+  <p>Environment Assets</p>
+</div>
+
+  </div>
+</section><section class="section">
   <h2>Contact</h2>
   <p>Email: mohamedkhedim345@email.com</p>
-</div></body>
+</section><footer>
+  <p>© 2026 Mohamed Khedim</p>
+</footer></body>
 </html>
